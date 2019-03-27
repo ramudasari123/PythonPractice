@@ -2,7 +2,7 @@ class school:
     def __init__(self,name,age):
         self.Tname=name
         self.Tage=age
-        print("teacher name is {} and age is {}".format(self.Tname,self.Tage))
+        print("teacher name input is {} and age is {}".format(self.Tname,self.Tage))
 class student(school):
     def parent(self,name,age):
         school.__init__()
